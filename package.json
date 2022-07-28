@@ -18,7 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write ."
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "pre-commit": "npm run format && npm run lint && git add -A ."
   },
   "eslintConfig": {
     "extends": [
@@ -37,11 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format"
-    }
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4",
