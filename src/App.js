@@ -1,7 +1,8 @@
 import React from "react";
+import Planner from "./pages/Planner";
 
 function App() {
-  return <div>App</div>;
+  return <Planner />;
 }
 
 export default App;
