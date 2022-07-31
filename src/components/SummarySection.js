@@ -79,10 +79,10 @@ function SummarySection() {
             <Title text="Welcome to Homeez" notCenter />
           </Box>
           <Text py={{ md: "20px" }}>
-            The Acumen International College came into being in early 2021, it
-            was established to provide high quality education and training to
-            students from School to University level. The group consists of
-            Schools, Academies of higher education, College and University.
+            With us, don’t worry about contractors leaving you in the lurch.
+            With Online Escrow, Homeez holds your funds until the works are done
+            and workmanship is approved by you! This protects your funds while
+            ensuring that contractors uphold the quality that you deserve.
           </Text>
           <Box alignSelf="flex-start" my="4">
             <MyButton
