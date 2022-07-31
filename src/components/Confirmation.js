@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Image, Text } from "@chakra-ui/react";
 import MyButton from "./Button";
+import isOdd from "../utils/isOdd";
 
 const Confirmation = ({
   name,
@@ -38,15 +39,17 @@ const Confirmation = ({
         >
           {buttonText}
         </MyButton>
-        <MyButton
-          onClick={() => {
-            setState(false);
-            setStage(stage + 2);
-          }}
-          outline
-        >
-          Skip
-        </MyButton>
+        {isOdd(stage) && (
+          <MyButton
+            onClick={() => {
+              setState(false);
+              setStage(stage + 2);
+            }}
+            outline
+          >
+            Skip
+          </MyButton>
+        )}
       </Flex>
     </Flex>
   );

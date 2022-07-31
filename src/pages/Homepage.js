@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../components/Carousel";
+import Collaborators from "../components/Collaborators";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavigationBar from "../components/NavigationBar";
@@ -13,6 +14,7 @@ const Homepage = () => {
       <NavigationBar />
       <Hero />
       <SummarySection />
+      <Collaborators />
       <Carousel />
       <Footer />
     </>

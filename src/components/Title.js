@@ -1,4 +1,5 @@
 import { Box, Text } from "@chakra-ui/react";
+import colours from "../utils/colours";
 
 function Title({ text, notCenter, uppercase }) {
   return (
@@ -11,7 +12,7 @@ function Title({ text, notCenter, uppercase }) {
     >
       <Text
         // textAlign="center"
-        color="black"
+        color={colours.darkRed}
         fontWeight={900}
         fontSize={{ xl: "34px", lg: "30px", md: "25px", base: "25px" }}
         mb="1"
