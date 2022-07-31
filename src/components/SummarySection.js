@@ -17,7 +17,7 @@ function SummarySection() {
         <Text
           fontSize={{ xl: "38px", md: "24px", sm: "18px", base: "14px" }}
           fontWeight={900}
-          borderLeft="4px solid #094FAF"
+          borderLeft="4px solid #952732"
           px={{ sm: "15px", base: "10px" }}
           mx={{ xl: "8", lg: "8", md: "4", base: 0 }}
         >
@@ -27,7 +27,7 @@ function SummarySection() {
         <Text
           fontSize={{ xl: "38px", md: "24px", sm: "18px", base: "14px" }}
           fontWeight={900}
-          borderLeft="4px solid #094FAF"
+          borderLeft="4px solid #952732"
           px={{ sm: "15px", base: "10px" }}
           mx={{ xl: "8", lg: "8", md: "4", base: 0 }}
         >
@@ -36,7 +36,7 @@ function SummarySection() {
         <Text
           fontSize={{ xl: "38px", md: "24px", sm: "18px", base: "14px" }}
           fontWeight={900}
-          borderLeft="4px solid #094FAF"
+          borderLeft="4px solid #952732"
           px={{ sm: "15px", base: "10px" }}
           mx={{ xl: "8", lg: "8", md: "4", base: 0 }}
         >
@@ -45,7 +45,7 @@ function SummarySection() {
         <Text
           fontSize={{ xl: "38px", md: "24px", sm: "18px", base: "14px" }}
           fontWeight={900}
-          borderLeft="4px solid #094FAF"
+          borderLeft="4px solid #952732"
           px={{ sm: "15px", base: "10px" }}
           mx={{ xl: "8", lg: "8", md: "4", base: 0 }}
         >
