@@ -12,6 +12,9 @@ const Sidebar = ({
   setDiningTable,
   setCoffeeTable,
   setBathtub,
+  setBed,
+  setCabinet,
+  setWardrobe,
 }) => {
   const [name, setName] = useState("");
   const [image, setImage] = useState("");
@@ -122,7 +125,70 @@ const Sidebar = ({
           image={image}
         />
       )}
-      {(stage === 11 || stage === 12) && <ThankYouBox />}
+      {stage === 11 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setBed}
+          stage={stage}
+          name={name}
+          buttonText="Yes"
+          image={image}
+        />
+      )}
+      {stage === 12 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setBed}
+          stage={stage}
+          name={name}
+          buttonText="Confirm"
+          image={image}
+        />
+      )}
+
+      {stage === 13 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setWardrobe}
+          stage={stage}
+          name={name}
+          buttonText="Yes"
+          image={image}
+        />
+      )}
+      {stage === 14 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setWardrobe}
+          stage={stage}
+          name={name}
+          buttonText="Confirm"
+          image={image}
+        />
+      )}
+
+      {stage === 15 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setCabinet}
+          stage={stage}
+          name={name}
+          buttonText="Yes"
+          image={image}
+        />
+      )}
+      {stage === 16 && (
+        <Confirmation
+          setStage={setStage}
+          setState={setCabinet}
+          stage={stage}
+          name={name}
+          buttonText="Confirm"
+          image={image}
+        />
+      )}
+
+      {(stage === 17 || stage === 18) && <ThankYouBox />}
     </Flex>
   );
 };

@@ -34,6 +34,27 @@ const getNameAndImageBasedOnStage = (stage) => {
         "https://www.badeloftusa.com/wp-content/uploads/2019/09/BW-02-XL-WHT-2020.jpg",
     };
   }
+  if (stage === 11 || stage === 12) {
+    return {
+      name: "Bed",
+      image:
+        "https://static01.nyt.com/images/2020/10/25/realestate/19shopping1/oakImage-1602795344944-superJumbo.jpg",
+    };
+  }
+  if (stage === 13 || stage === 14) {
+    return {
+      name: "Wardrobe",
+      image:
+        "https://www.ikea.com/ph/en/images/products/nodeland-wardrobe-with-3-doors-medium-brown__0836935_pe778611_s5.jpg?f=s",
+    };
+  }
+  if (stage === 15 || stage === 16) {
+    return {
+      name: "cabinet",
+      image:
+        "https://secure.img1-cg.wfcdn.com/im/17953659/resize-h600-w600%5Ecompr-r85/3499/34991868/Cabinets+%26+Chests.jpg",
+    };
+  }
 };
 
 export default getNameAndImageBasedOnStage;

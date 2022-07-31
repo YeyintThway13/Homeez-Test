@@ -11,6 +11,9 @@ const Planner = () => {
   const [coffeeTable, setCoffeeTable] = useState(false);
   const [diningTable, setDiningTable] = useState(false);
   const [bathtub, setBathtub] = useState(false);
+  const [bed, setBed] = useState(false);
+  const [wardrobe, setWardrobe] = useState(false);
+  const [cabinet, setCabinet] = useState(false);
   const [stage, setStage] = useState(1);
 
   return (
@@ -45,6 +48,24 @@ const Planner = () => {
           isTransform={stage === 10}
         />
       )}
+      {bed && (
+        <Furniture
+          imageURL="https://api.homeez.com/v1/res?editor_res=87_off-the-shelf_king_bed.png"
+          isTransform={stage === 12}
+        />
+      )}
+      {wardrobe && (
+        <Furniture
+          imageURL="https://api.homeez.com/v1/res?editor_res=56_built-in_open_wardrobe.png"
+          isTransform={stage === 14}
+        />
+      )}
+      {cabinet && (
+        <Furniture
+          imageURL="https://api.homeez.com/v1/res?editor_res=full_height_cabinet.png"
+          isTransform={stage === 16}
+        />
+      )}
       <Flex justifyContent="space-between" alignItems="center">
         <FloorPlan />
         <Sidebar
@@ -55,6 +76,9 @@ const Planner = () => {
           setCoffeeTable={setCoffeeTable}
           setDiningTable={setDiningTable}
           setBathtub={setBathtub}
+          setBed={setBed}
+          setWardrobe={setWardrobe}
+          setCabinet={setCabinet}
         />
       </Flex>
       <TextOnFloorPlan />
