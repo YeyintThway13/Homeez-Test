@@ -85,7 +85,11 @@ function SummarySection() {
             Schools, Academies of higher education, College and University.
           </Text>
           <Box alignSelf="flex-start" my="4">
-            <MyButton onClick={()=> navigate("/planner")} href="" color="black">
+            <MyButton
+              onClick={() => navigate("/planner")}
+              href=""
+              color="black"
+            >
               Design Now
             </MyButton>
           </Box>
