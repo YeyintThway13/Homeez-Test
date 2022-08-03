@@ -30,7 +30,6 @@ function Collaborators() {
                 base: "14px",
               }}
               fontWeight="400"
-              // textTransform="uppercase"
               textAlign="center"
               lineHeight={{ md: 8, base: 6 }}
               letterSpacing={{ md: "1px", base: "0.5px" }}

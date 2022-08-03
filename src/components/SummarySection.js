@@ -7,7 +7,7 @@ import MyButton from "./Button";
 function SummarySection() {
   const navigate = useNavigate();
   return (
-    <Box>
+    <Flex direction="column" alignItems="center">
       <Flex
         justifyContent="space-around"
         mt={{ md: "10", base: "6" }}
@@ -54,7 +54,9 @@ function SummarySection() {
       </Flex>
       <Flex
         my={{ md: "50px", base: 4 }}
+        maxW="1440px"
         alignItems="center"
+        justifyContent="center"
         display={{
           xl: "flex",
           lg: "flex",
@@ -68,6 +70,7 @@ function SummarySection() {
           px={{ xl: "100px", lg: "50px" }}
           justifyContent="center"
           alignItems="flex-start"
+          maxW="800px"
         >
           <Box
             w="100%"
@@ -94,11 +97,7 @@ function SummarySection() {
             </MyButton>
           </Box>
         </Flex>
-        <Flex
-          width="180%"
-          height={{ xl: "450px", lg: "350px" }}
-          position="relative"
-        >
+        <Flex height={{ xl: "450px", lg: "350px" }} position="relative">
           <Flex
             height="100%"
             width="100%"
@@ -151,7 +150,7 @@ function SummarySection() {
           Design Now
         </MyButton>
       </Flex>
-    </Box>
+    </Flex>
   );
 }
 
