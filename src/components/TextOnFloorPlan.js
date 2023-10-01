@@ -6,8 +6,8 @@ const TextOnFloorPlan = () => {
       <p
         style={{
           position: "absolute",
-          top: 110,
-          left: 120,
+          top: 70,
+          left: 80,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",
@@ -18,8 +18,8 @@ const TextOnFloorPlan = () => {
       <p
         style={{
           position: "absolute",
-          top: 110,
-          left: 440,
+          top: 70,
+          left: 410,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",
@@ -30,8 +30,8 @@ const TextOnFloorPlan = () => {
       <p
         style={{
           position: "absolute",
-          top: 460,
-          left: 440,
+          top: 430,
+          left: 410,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",
@@ -42,21 +42,21 @@ const TextOnFloorPlan = () => {
       <p
         style={{
           position: "absolute",
-          top: 520,
-          left: 625,
+          top: 470,
+          left: 610,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",
           writingMode: "tb-rl",
         }}
       >
-        Aircon-ledge
+        Aircon Ledge
       </p>
       <p
         style={{
           position: "absolute",
-          top: 560,
-          left: 120,
+          top: 520,
+          left: 80,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",
@@ -67,8 +67,8 @@ const TextOnFloorPlan = () => {
       <p
         style={{
           position: "absolute",
-          top: 660,
-          left: 540,
+          top: 620,
+          left: 480,
           fontSize: "16px",
           fontWeight: "bold",
           color: "#111",

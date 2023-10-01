@@ -7,9 +7,9 @@ const FloorPlan = () => {
   return (
     <svg
       style={{
-        marginLeft: "0px",
-        marginTop: "0px",
-        padding: "80px",
+        marginLeft: "40px",
+        marginTop: "20px",
+        padding: "10px",
       }}
       width={900}
       height={800}
